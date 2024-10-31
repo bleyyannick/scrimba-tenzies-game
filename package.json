@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://bleyyannick/.github.io/scrimba-tenzies-game/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
