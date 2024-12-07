@@ -1,11 +1,12 @@
-
-
-
-export const  Die =  ({value}) =>  {
-    
-    return (
-        <div className="die">
-          {value}
-        </div>
-    )
+export default function Die(props) {
+  const styles = {
+      backgroundColor: props.isHeld ? "#59E391" : "white"
+  }
+  
+  return (
+      <button 
+          style={styles}
+          onClick={props.hold}
+      >{props.value}</button>
+  )
 }
